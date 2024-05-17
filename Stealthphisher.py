@@ -556,7 +556,7 @@ def show_options(sites, is_main=True, is_login=False):
     # If there is modulus, that means some entries are remaining, we need an extra row
     if total_sites%3 > 0:
         one_third += 1
-    options = "\n\n"
+    options = "\n"
     # First index of last line should be less than one-third of total
     while first_index < one_third and total_sites > 10:
         second_index = first_index + one_third
@@ -571,9 +571,9 @@ def show_options(sites, is_main=True, is_login=False):
         options += f"{green}[{white}o{green}]{yellow} AddZip     {green}[{white}0{green}]{yellow} Exit\n\n"
     else:
         if is_login and isfile(saved_file) and cat(saved_file)!="":
-            options += f"{green}[{white}a{green}]{yellow} About      {green}[{white}s{green}]{yellow} Saved      {green}[{white}x{green}]{yellow} Main Menu       {green}[{white}0{green}]{yellow} Exit\n\n"
+            options += f"{green}[{white}s{green}]{yellow} Saved      {green}[{white}x{green}]{yellow} Main Menu       {green}[{white}0{green}]{yellow} Exit\n\n"
         else:
-            options += f"{green}[{white}a{green}]{yellow} About                   {green}[{white}x{green}]{yellow} Main Menu         {green}[{white}0{green}]{yellow} Exit\n\n"
+            options += f"{green}[{white}x{green}]{yellow} Main Menu         {green}[{white}0{green}]{yellow} Exit\n\n"
     lolcat(options)
 # Clear the screen and show logo
 def clear(fast=False, lol=False):
