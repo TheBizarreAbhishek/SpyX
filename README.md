@@ -26,11 +26,6 @@ A python phishing script for login phishing, image phishing, video phishing and 
  - Get IP Address and many other details along with login credentials
 
 # Options
-usage: Stealthphisher.py [-h] [-p PORT] [-t TYPE] [-o OPTION]
-                     [-T TUNNELER] [-r REGION] [-S SUBDOMAIN]
-                     [-d DIRECTORY] [-f FEST] [-i YTID] [-u URL]
-                     [-s DURATION] [-m MODE] [-e TROUBLESHOOT]
-                     [--nokey] [--noupdate] 
 ```
   -h, --help            show this help message and exit
   -p PORT, --port PORT  MaxPhisher's server port [Default : 8080]
