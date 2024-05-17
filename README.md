@@ -61,17 +61,20 @@ A python phishing script for login phishing, image phishing, video phishing and 
   --noupdate            Skip update checking [Default : False]
 ```
 
-# Usage 
+# Installation
+1. pkg install python3 -y
+2. git clone https://github.com/TheBizarreAbhishek/StealthPhisher.git
+
+# How to Run Script
+1. cd StealthPhisher
+2. python3 Stealthphisher.py
+
+# Usage
 1. Run the script
 2. Choose a Website
 3. Wait sometimes for setting up all
 4. Send the generated link to victim
 5. Wait for victim login. As soon as he/she logs in, credentials will be captured
-
-# Installation
-1. pkg install python3 -y
-2. git clone https://github.com/TheBizarreAbhishek/StealthPhisher.git
-3. python3 Stealthphisher.py
 
 ## Credits 
 [PyPhisher](https://gitlab.com/KasRoudra/PyPhisher)
