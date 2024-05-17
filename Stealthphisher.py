@@ -556,7 +556,7 @@ def show_options(sites, is_main=True, is_login=False):
     # If there is modulus, that means some entries are remaining, we need an extra row
     if total_sites%3 > 0:
         one_third += 1
-    options = "\n"
+    options = ""
     # First index of last line should be less than one-third of total
     while first_index < one_third and total_sites > 10:
         second_index = first_index + one_third
