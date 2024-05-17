@@ -87,6 +87,7 @@ logo = f"""
  `--. \ __/ _ \/ _` | | __| '_ \|  __/| '_ \| / __| '_ \ / _ \ '__|
 /\__/ / ||  __/ (_| | | |_| | | | |   | | | | \__ \ | | |  __/ |   
 \____/ \__\___|\__,_|_|\__|_| |_\_|   |_| |_|_|___/_| |_|\___|_|
+                                                  by ABHISHEK
 """
 
 lx_help = f"""
@@ -567,7 +568,7 @@ def show_options(sites, is_main=True, is_login=False):
             options += optioner(i, 20) + "\n"
     options += "\n"
     if is_main:
-        options += f"{green}[{white}a{green}]{yellow} About     {green}[{white}o{green}]{yellow} AddZip  {green}       {green}[{white}m{green}]{yellow} More tools     {green}[{white}0{green}]{yellow} Exit\n\n"
+        options += f"{green}[{white}o{green}]{yellow} AddZip     {green}[{white}0{green}]{yellow} Exit\n\n"
     else:
         if is_login and isfile(saved_file) and cat(saved_file)!="":
             options += f"{green}[{white}a{green}]{yellow} About      {green}[{white}s{green}]{yellow} Saved      {green}[{white}x{green}]{yellow} Main Menu       {green}[{white}0{green}]{yellow} Exit\n\n"
