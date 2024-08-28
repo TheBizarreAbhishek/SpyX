@@ -61,9 +61,9 @@ A python phishing script for login phishing, image phishing, video phishing and 
   --noupdate            Skip update checking [Default : False]
 ```
 
-# Installation
-1. pkg install python3 -y
-2. git clone https://github.com/TheBizarreAbhishek/StealthPhisher.git
+# Installation 
+1. paste this command in your terminal
+```pkg install python3 -y && git clone https://github.com/TheBizarreAbhishek/StealthPhisher.git```
 
 # How to Run Script
 1. cd StealthPhisher
