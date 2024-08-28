@@ -62,7 +62,8 @@ A python phishing script for login phishing, image phishing, video phishing and 
 ```
 
 # Installation 
-1. paste this command in your terminal
+1. Copy this command and paste in your terminal
+
 ```pkg install python3 -y && git clone https://github.com/TheBizarreAbhishek/StealthPhisher.git```
 
 # How to Run Script
