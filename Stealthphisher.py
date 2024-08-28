@@ -1115,7 +1115,7 @@ def requirements():
     if termux:
         if not is_installed("cloudflared")
             sprint(f"\n{info}Installing cloudflared{nc}")
-            shell("pkg install cloudflared -y)
+            shell("pkg install cloudflared -y")
         if not is_installed("proot"):
             sprint(f"\n{info}Installing proot{nc}")
             shell("pkg install proot -y")
