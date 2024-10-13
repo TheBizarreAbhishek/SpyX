@@ -1,5 +1,5 @@
 # Disclaimer 
-Any actions and or activities related to StealthPhisher is solely your responsibility. The misuse of this toolkit can result in criminal charges brought against the persons in question. The contributors will not be held responsible in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+Any actions and or activities related to SpyX is solely your responsibility. The misuse of this toolkit can result in criminal charges brought against the persons in question. The contributors will not be held responsible in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
 
 This toolkit contains materials that can be potentially damaging or dangerous for social media. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
 
@@ -28,11 +28,11 @@ A python phishing script for login phishing, image phishing, video phishing and 
 # Options
 ```
   -h, --help            show this help message and exit
-  -p PORT, --port PORT  MaxPhisher's server port [Default : 8080]
-  -t TYPE, --type TYPE  MaxPhisher's phishing type index [Default :
+  -p PORT, --port PORT  Spy's server port [Default : 8080]
+  -t TYPE, --type TYPE  Spy's phishing type index [Default :
                         null]
   -o OPTION, --option OPTION
-                        MaxPhisher's template index [ Default : null ]
+                        Spy's template index [ Default : null ]
   -T TUNNELER, --tunneler TUNNELER
                         Tunneler to be chosen while url shortening
                         [Default : Cloudflared]
@@ -53,7 +53,7 @@ A python phishing script for login phishing, image phishing, video phishing and 
   -s DURATION, --duration DURATION
                         Media duration while capturing [Default :
                         5000(ms)]
-  -m MODE, --mode MODE  Mode of MaxPhisher [Default: normal]
+  -m MODE, --mode MODE  Mode of SpyX [Default: normal]
   -e TROUBLESHOOT, --troubleshoot TROUBLESHOOT
                         Troubleshoot a tunneler [Default: null]
   --nokey               Use localtunnel without ssh key [Default:
@@ -65,12 +65,12 @@ A python phishing script for login phishing, image phishing, video phishing and 
 1. Copy this command and paste in your terminal
 
 ```
- apt update && apt upgrade -y && pkg install git -y && pkg install python3 -y && git clone https://github.com/TheBizarreAbhishek/StealthPhisher.git
+ apt update && apt upgrade -y && pkg install git -y && pkg install python3 -y && git clone https://github.com/TheBizarreAbhishek/SpyX.git
 ```
 
 # How to Run Script
-1. cd StealthPhisher
-2. python3 Stealthphisher.py
+1. cd SpyX
+2. python3 SpyX.py
 
 # Usage
 1. Run the script
